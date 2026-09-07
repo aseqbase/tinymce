@@ -1,0 +1,9 @@
+{
+    "Image":"edit", // TODO: Replace with a suitable fontawesome symbol, or the address of its special logo
+    "Name":"TinyMCE",
+    "Description":"The TinyMCE Editor",
+    "Reference": "aseqbase/tinymce",
+    "PreInstalls": [],
+    "PostInstalls": [],
+    "MetaData":[]
+}

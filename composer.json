@@ -1,0 +1,17 @@
+{
+    "name":"aseqbase/tinymce",
+    "description":"The TinyMCE Editor",
+    "type": "package",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Zahra Khebri",
+            "email": "info@pasenv.com"
+        },
+        {
+            "name": "Mohammad Fathi",
+            "email": "i@mimfa.net"
+        }
+    ],
+    "require": {}
+}
