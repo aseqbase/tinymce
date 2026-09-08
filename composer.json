@@ -1,6 +1,6 @@
 {
-    "name":"aseqbase/tinymce",
-    "description":"The TinyMCE Editor",
+    "name": "aseqbase/tinymce",
+    "description": "A modular TinyMCE rich content editor for AseqBase websites",
     "type": "package",
     "license": "GPL-3.0-only",
     "authors": [
@@ -13,5 +13,8 @@
             "email": "i@mimfa.net"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.2",
+        "ext-dom": "*"
+    }
 }
