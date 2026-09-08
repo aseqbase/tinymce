@@ -1,0 +1,54 @@
+@import url("content.css");
+
+html {
+    background: #fff;
+}
+
+body {
+    box-sizing: border-box;
+    min-height: 100%;
+    margin: 0;
+    padding: 1rem 1.25rem;
+    color: #20242a;
+    font-family: Vazirmatn, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+    overflow-wrap: anywhere;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    min-width: 3rem;
+    padding: 0.45rem 0.65rem;
+    border: 1px solid #cbd5e1;
+    vertical-align: top;
+}
+
+th {
+    background: #f1f5f9;
+    font-weight: 700;
+}
+
+hr {
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid #cbd5e1;
+}
+
+blockquote {
+    margin-inline: 0;
+    padding-inline: 1rem;
+    border-inline-start: 4px solid #94a3b8;
+    color: #475569;
+}
+

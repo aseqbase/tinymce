@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "B Nazanin";
+    src: url("fonts/B%20Nazanin.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/Vazirmatn.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "B Yekan";
+    src: url("fonts/B%20Yekan.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "B Titr";
+    src: url("fonts/B%20Titr.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "B Koodak";
+    src: url("fonts/B%20Koodak.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url("fonts/Calibri.ttf") format("truetype");
+    font-display: swap;
+}
+
+.pas-content-button {
+    display: inline-block;
+    margin: 0.35rem 0;
+    padding: 0.65rem 1.15rem;
+    border-radius: 0.45rem;
+    background: #168d73;
+    color: #fff !important;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none !important;
+}
+
+.pas-content-button:hover,
+.pas-content-button:focus {
+    background: #10705b;
+    color: #fff !important;
+}
+
+.pas-callout {
+    box-sizing: border-box;
+    margin: 1rem 0;
+    overflow-wrap: anywhere;
+}
+
+.pas-callout > :first-child {
+    margin-top: 0;
+}
+
+.pas-callout > :last-child {
+    margin-bottom: 0;
+}
+
+.pas-checklist {
+    padding-inline-start: 0;
+    list-style: none !important;
+}
+
+.pas-checklist > li {
+    position: relative;
+    padding-inline-start: 1.75em;
+    list-style: none !important;
+}
+
+.pas-checklist > li::before {
+    position: absolute;
+    inset-inline-start: 0;
+    color: #168d73;
+    content: "\2713";
+    font-weight: 700;
+}
+
+.tox-tinymce-aux,
+.tox-fullscreen {
+    z-index: 2147483000 !important;
+}
+
+th[data-key="SearchContent"],
+td[data-key="SearchContent"] {
+    display: none !important;
+}

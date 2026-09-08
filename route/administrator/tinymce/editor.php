@@ -8,7 +8,7 @@ $routeHandler = function ($data) {
     ->Get(function () use ($routeHandler) {
         (\_::$Front->AdminView)($routeHandler, [
             "Image" => "edit",
-            "Title" => "'TinyMCE Editor' Configurations"
+            "Title" => "TinyMCE Editor Settings"
         ]);
     })
     ->Default(fn() => response($routeHandler($data)))

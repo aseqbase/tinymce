@@ -1,9 +1,11 @@
 {
-    "Image":"edit", // TODO: Replace with a suitable fontawesome symbol, or the address of its special logo
-    "Name":"TinyMCE",
-    "Description":"The TinyMCE Editor",
+    "Image": "edit",
+    "Name": "TinyMCE Editor",
+    "Description": "A modular TinyMCE rich content editor for AseqBase websites",
     "Reference": "aseqbase/tinymce",
     "PreInstalls": [],
     "PostInstalls": [],
-    "MetaData":[]
+    "MetaData": {
+        "TinyMCEVersion": "8.9.0"
+    }
 }
