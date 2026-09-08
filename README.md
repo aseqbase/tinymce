@@ -32,7 +32,7 @@ For manual installation, copy these package directories to the matching director
 - `model`
 - `route`
 
-Import `translations/tinymce-en-fa.csv` through the AseqBase translation importer. The XLSX file contains the same two-column lexicon for review and editing.
+Import `-bootstrap/tinymce-en-fa.csv` through the AseqBase translation importer. The XLSX file contains the same two-column lexicon for review and editing.
 
 After installation, open `/administrator/content/contents`. The initializer registers the module route ahead of the generic administrator route only for this URL.
 

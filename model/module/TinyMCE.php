@@ -15,7 +15,7 @@ class TinyMCE extends Module
             return;
 
         self::$contentStylesRegistered = true;
-        $source = asset(\_::$Address->StructRootDirectory, 'tinymce/pas/content.css', optimize: false);
+        $source = asset(\_::$Address->StructRootDirectory, 'pas/content.css', optimize: false);
         if ($source)
             \_::$Front->Libraries[] = Struct::Style(null, $source);
     }
@@ -44,7 +44,7 @@ class TinyMCE extends Module
         $language = preg_match('/^[a-z]{2}(?:[_-][a-z]{2})?$/', $language) ? $language : 'en';
         $labels = self::TranslatedLabels();
         $fontFormats = self::FontFormats($labels, is_array($plugin?->FontFamilies ?? null) ? $plugin->FontFamilies : []);
-        $contentCss = asset(\_::$Address->StructRootDirectory, 'tinymce/pas/editor.css', optimize: false);
+        $contentCss = asset(\_::$Address->StructRootDirectory, 'pas/editor.css', optimize: false);
 
         $config = json_encode([
             'direction' => $direction,
