@@ -18,8 +18,10 @@ The unused bundled `plugins/help/js/i18n/keynav/ar.js` and `fa.js` files are exc
 ## New integration files
 
 - `model/library/TinyMCEContentSanitizer.php`
+- `model/library/TinyMCEMarkdownMigrator.php`
 - `model/module/TinyMCEContentTable.php`
 - `route/administrator/tinymce/contents.php`
+- `route/administrator/tinymce/migration.php`
 - `asset/struct/tinymce/pas/content.css`
 - `asset/struct/tinymce/pas/editor.css`
 - `asset/struct/tinymce/pas/fonts/B Nazanin.ttf`
@@ -46,5 +48,6 @@ The unused bundled `plugins/help/js/i18n/keynav/ar.js` and `fa.js` files are exc
 - Excel workbook inspection and visual rendering
 - Font internal-family verification
 - Local HTTP checks for TinyMCE, CSS, and font assets
+- Legacy Markdown dry-run, batched migration, and guarded rollback checks on the local database copy
 
 The final authenticated browser test must be repeated after installation on the target website because this delivery intentionally contains no login bypass or credentials.

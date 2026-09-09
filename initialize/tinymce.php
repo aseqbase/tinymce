@@ -14,5 +14,10 @@ if (\_::$User->HasAccess(\_::$User->AdminAccess) && isset(\_::$Front->AdminMenus
         'Access' => \_::$User->AdminAccess,
         'Image' => 'edit'
     ];
+    \_::$Front->AdminMenus['Administrator-System']['Items'][] = [
+        'Name' => 'Markdown Content Migration',
+        'Path' => '/administrator/tinymce/migration',
+        'Access' => \_::$User->AdminAccess,
+        'Image' => 'exchange'
+    ];
 }
-
